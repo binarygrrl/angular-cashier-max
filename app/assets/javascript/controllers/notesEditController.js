@@ -1,4 +1,4 @@
-angular.module('NoteWrangler').controller('NotesEditController', function(Note, User, Category, $scope, $routeParams, $location){
+angular.module('CashierMax').controller('NotesEditController', function(Note, User, Category, $scope, $routeParams, $location){
 	$scope.note = Note.get({id: $routeParams.id});
 	$scope.isSubmitting = false;
 	$scope.categories = Category.query();

@@ -1,3 +1,3 @@
-angular.module('NoteWrangler', ['ngRoute', 'ngResource', "ngGravatar"]).config(function(GravatarProvider){
-	GravatarProvider.setSize(100);
+angular.module('CashierMax', ['ngRoute', 'ngResource']).config(function(){
+	
 });

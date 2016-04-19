@@ -1,0 +1,96 @@
+/*auditStyle*/
+
+h1{
+	padding: 0;
+	margin: 0;
+	border-left: #009;
+}
+.auditMenu table {
+	border-top: 2px solid #fff;
+	width: 1024px;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+	float: left;
+
+}
+.auditMenu table table {
+	padding-top: 4px;
+	float: left;
+}
+
+.auditMenu td {
+	padding: 2px 4px;
+	border: 2px solid #fff;
+}
+
+.auditMenu th {
+	text-align: right;
+	padding: 12px 4px 0px;
+	width: 20%;
+}
+.auditMenu th:first-of-type{
+	width: 40%;
+	text-align: left;
+}
+
+.auditMenu td {
+	width: 20%;
+	text-align: right;
+}
+.auditMenu td:first-of-type{
+	width: 40%;
+	text-align: left;
+}
+
+.auditMenu div.dateInfo {
+	margin-bottom: 20px;
+	float: left;
+	width: 100%;
+	margin-left: 4px;
+}
+.auditMenu div.dateInfo:first-of-type span {
+	color: #aaa;
+	width: 33%;
+	float: left;
+}
+.auditMenu div:first-of-type span:first-of-type {
+	color: #fff;
+}
+.auditMenu div.dateInfo div {
+	float: left;
+
+}
+.auditMenu a {
+	width: 150px;
+	border-radius: 6px;
+	border: 2px solid #fff;
+	background-color: blue;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	color: #aaa;
+	text-decoration: none;
+	text-align: left;
+	padding: 20px 20px;
+}
+.auditMenu a span {
+	text-align: right;
+	color: #fff;
+	float: right;
+}
+.auditMenu a.exit {
+	background-color: red;
+	border-radius: 35px;
+	font-size: 1.1em;
+	padding: 20px;
+	float: right;
+	display: block;
+	margin: 0;
+	text-align: center;
+
+}
+
+.auditMenu select.machineOpts {
+	display: block;
+	margin: 20px 0 40px;
+}

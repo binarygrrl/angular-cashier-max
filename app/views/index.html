@@ -1,25 +1,23 @@
-<html ng-app="NoteWrangler">
+<html ng-app="CashierMax">
 <head>
-	<title>Note Wrangler</title>
+	<title>CashierMax</title>
 	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.css"></link>
 	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap-theme.css"></link>
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css"></link>
 </head>
 <body>
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<div class="navbar-brand">
-					<a href="/#/">NoteWrangler</a>
+					<a href="/#/">CashierMax</a>
 				</div>
-			</div>	<!-- 
-			<ul class="nav navbar-nav">
-				<li ><a href="#/notes">Notes</a></li>
-				<li><a href="#/users">Users</a></li>
-			</ul> -->	
+			</div>		
 			<nw-page-nav></nw-page-nav>	
 		</div>
 	</nav>
-	<div ng-view class="container-fluid"></div>
+	<div ng-view class="container-fluid mainContainer"></div>
+		<cm-site-nav></cm-site-nav>
 </body>
 	<!--Vendor Scripts Section-->
 	<script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
@@ -36,6 +34,8 @@
 
 	<!-- Directives -->
 	<script type="text/javascript" src="assets/javascript/directives/nwPageNav.js"></script>
+	<script type="text/javascript" src="assets/javascript/directives/cmSiteNav.js"></script>
+	<script type="text/javascript" src="assets/javascript/directives/cmCmNav.js"></script>
 	<script type="text/javascript" src="assets/javascript/directives/nwCategorySelector.js"></script>
 	<script type="text/javascript" src="assets/javascript/directives/title.js"></script>
 
@@ -51,6 +51,22 @@
 	<script type="text/javascript" src="assets/javascript/controllers/notesCreateController.js"></script>
 	<script type="text/javascript" src="assets/javascript/controllers/usersIndexController.js"></script>
 	<script type="text/javascript" src="assets/javascript/controllers/usersShowController.js"></script>
+
+	<script type="text/javascript" src="assets/javascript/controllers/homeIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/buyIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/redeemIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/instantIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/timeCardIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/drawerIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/customersIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/facilityIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/reportsIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/employeesIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/productsIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/logoutIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/adminIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascript/controllers/customerMenuIndexController.js"></script>
+
 	
 	<!-- Filters -->
 	<script type="text/javascript" src="assets/javascript/filters/categoryFilter.js"></script>
