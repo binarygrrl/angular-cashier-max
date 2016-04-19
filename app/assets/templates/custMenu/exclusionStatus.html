@@ -1,0 +1,34 @@
+<link rel="stylesheet" type="text/css" href="assets/styles/customerMenu.css"></link>
+
+<h1>CashierMax Customer Menu</h1>
+<cm-cm-nav></cm-cm-nav>
+<h1>Exclusion Status</h1>
+
+<main>
+	<div class="mainDiv">
+		<hr />
+		<h2>Set Exclusion Status</h2>
+		<div class="pinForm exclusionsStatForm">
+			<ul>
+				<li>
+					<label>Start Date:</label>
+					<input type="date" value="" name="exclusionStartDate" />
+				</li>
+				<li>
+					<label>End Date:</label>
+					<input type="date" value="" name="exclusionEndDate" />
+				</li>
+				<li>
+					<label>Reason:</label>
+					<input type="text" value="" name="exclusionReason" />
+				</li>
+				<li class="buttonRow">
+					<button>Submit</button>
+				</li>
+			</ul>
+		</div>
+		<hr />
+		<h2>Current Exclusion Status</h2>
+		<p><span data-bind="currentExclusionStatus">There is currently no exclusion</span></p>
+	</div>
+</main>

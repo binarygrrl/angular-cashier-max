@@ -1,0 +1,74 @@
+<html ng-app="CashierMax">
+<head>
+	<title>CashierMax</title>
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap.css"></link>
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap-theme.css"></link>
+	<link rel="stylesheet" type="text/css" href="styles/style.css"></link>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<div class="navbar-brand">
+					<a href="/#/">CashierMax</a>
+				</div>
+			</div>		
+			<nw-page-nav></nw-page-nav>	
+		</div>
+	</nav>
+	<div ng-view class="container-fluid mainContainer"></div>
+		<cm-site-nav></cm-site-nav>
+</body>
+	<!--Vendor Scripts Section-->
+	<script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+	<script type="text/javascript" src="scripts/vendor/jquery-2.2.3.js"></script>
+	<script type="text/javascript" src="scripts/vendor/angular.js"></script>
+	<script type="text/javascript" src="scripts/vendor/angular-resource.js"></script>
+	<script type="text/javascript" src="scripts/vendor/angular-route.js"></script>
+	<script type="text/javascript" src="scripts/vendor/bootstrap.js"></script>
+	<script type="text/javascript" src="scripts/vendor/ngGravatar.js"></script>
+
+	<!-- App -->
+	<script type="text/javascript" src="scripts/app.js"></script>
+	<script type="text/javascript" src="scripts/routes.js"></script>
+
+	<!-- Directives -->
+	<script type="text/javascript" src="scripts/directives/nwPageNav.js"></script>
+	<script type="text/javascript" src="scripts/directives/cmSiteNav.js"></script>
+	<script type="text/javascript" src="scripts/directives/cmCmNav.js"></script>
+	<script type="text/javascript" src="scripts/directives/nwCategorySelector.js"></script>
+	<script type="text/javascript" src="scripts/directives/title.js"></script>
+
+	<!-- Services -->
+	<script type="text/javascript" src="scripts/services/note.js"></script>
+	<script type="text/javascript" src="scripts/services/user.js"></script>
+	<script type="text/javascript" src="scripts/services/category.js"></script>
+	
+	<!-- Controllers -->
+	<script type="text/javascript" src="scripts/controllers/notesIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/notesEditController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/notesShowController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/notesCreateController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/usersIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/usersShowController.js"></script>
+
+	<script type="text/javascript" src="scripts/controllers/homeIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/buyIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/redeemIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/instantIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/timeCardIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/drawerIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/customersIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/facilityIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/reportsIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/employeesIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/productsIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/logoutIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/adminIndexController.js"></script>
+	<script type="text/javascript" src="scripts/controllers/customerMenuIndexController.js"></script>
+
+	
+	<!-- Filters -->
+	<script type="text/javascript" src="scripts/filters/categoryFilter.js"></script>
+
+</html>
