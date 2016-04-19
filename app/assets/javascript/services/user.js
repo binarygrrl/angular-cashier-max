@@ -1,3 +1,3 @@
-angular.module('CashierMax').factory('User', function($resource){
+angular.module('NoteWrangler').factory('User', function($resource){
 	return $resource('/users/:id');
 });

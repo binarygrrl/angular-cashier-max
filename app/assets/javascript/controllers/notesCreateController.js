@@ -1,4 +1,4 @@
-angular.module('CashierMax').controller('NotesCreateController', function($scope, Note, $location){
+angular.module('NoteWrangler').controller('NotesCreateController', function($scope, Note, $location){
 	$scope.note = new Note();
 	$scope.isSubmitting = false;
 	$scope.saveNote = function(note){

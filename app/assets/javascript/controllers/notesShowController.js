@@ -1,4 +1,4 @@
-angular.module('CashierMax').controller('NotesShowController', function(Note, $scope, $routeParams, $location){
+angular.module('NoteWrangler').controller('NotesShowController', function(Note, $scope, $routeParams, $location){
 	$scope.note = Note.get({id: $routeParams.id});
 	$scope.deleteNote = function(note){
 		note.$remove().then(function(){

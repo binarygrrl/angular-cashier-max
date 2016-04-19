@@ -1,3 +1,3 @@
-angular.module('CashierMax').factory('Category', function($resource){
+angular.module('NoteWrangler').factory('Category', function($resource){
 	return $resource('/categories/:id');
 });

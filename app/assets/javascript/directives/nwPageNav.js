@@ -1,4 +1,4 @@
-angular.module("CashierMax").directive('nwPageNav', function(){
+angular.module("NoteWrangler").directive('nwPageNav', function(){
 	return {
 		replace: true,
 		restrict: "E",

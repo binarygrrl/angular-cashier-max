@@ -1,4 +1,4 @@
-angular.module('CashierMax').filter('categoryFilter', function(){
+angular.module('NoteWrangler').filter('categoryFilter', function(){
 	return function(collection, category){
 		var newCollection = [];
 		if(category && category.id){
